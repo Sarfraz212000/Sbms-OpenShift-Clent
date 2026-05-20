@@ -1,4 +1,4 @@
-FROM docker.io/library/openjdk:17
+FROM registry.access.redhat.com/ubi8/openjdk-17
 
 COPY target/Openshift.jar /usr/app/
 
